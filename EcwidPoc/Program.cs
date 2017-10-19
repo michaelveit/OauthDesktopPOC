@@ -10,6 +10,7 @@ namespace EcwidPoc
     {
         static void Main(string[] args)
         {
+            var auth = OauthClient.AskForAuthorization("abcd0123", "123", TimeSpan.FromSeconds(30));
         }
     }
 }
